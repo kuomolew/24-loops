@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Ten numbers</title>
+</head>
+<body>
+    
+    
+    <form id="counter" style="width: 700px;">
+        <h1 style="color:green">//Запросить у пользователя 10 чисел и подсчитать, сколько он ввел положительных, отрицательных и нулей. При этом также посчитать, сколько четных и нечетных. Вывести статистику на экран. Учтите, что достаточно одной переменной (не 10) для ввода чисел пользователем.</h1>
+        <h1>Type 10 numbers. Divide it with comma:</h1>
+        <input type="text" id="numbers" required style="width: 700px;">
+        <button type="button" onclick="calculate()">Submit</button><br><br>
+        Positive: <span id="positive"></span><br>
+        Negative: <span id="negative"></span><br>
+        Zeroes: <span id="zeroes"></span><br>
+        Even: <span id="even"></span><br>
+        Odd: <span id="odd"></span><br>
+    </form>
+    
+    
+    <script src="js/05-ten-numbers.js"></script>
+</body>
+</html>
