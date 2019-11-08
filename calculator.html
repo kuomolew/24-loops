@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    
+    <form id="counter">
+        <h1>Type 10 numbers. Divide it with comma:</h1>
+        <input type="number" id="number-1" required>
+        <select id="math">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        <input type="number" id="number-2" required>
+        <button type="button" onclick="calculate()">Submit</button>
+    </form>
+    
+    
+    <script src="js/06-calculator.js"></script>
+</body>
+</html>
